@@ -1,0 +1,35 @@
+
+body {
+  /*/ background-image: url('C:/Users/bandoli simone/Desktop/Theory/HTML/images/cyberpunk.jpg'); 
+  background-size: cover */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.login {
+  background-color: rgb(0, 0, 0);
+}
+
+.form-label{
+  color: 	#d92323; 
+}
+
+.form-check{
+  color: 	#d92323; 
+}
+
+
+.btn {
+  background-color: 	#d92323; 
+  color: black;
+  border: none;
+}
+
+.btn:hover {
+  background-color: 	#961919; 
+}
+
+

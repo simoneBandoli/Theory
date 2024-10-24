@@ -1,0 +1,4 @@
+{"games": [
+    { "name":"Hollow Knight", "softwareHouse":"Team Cherry", "image":"hollowknight.png"},
+    { "name":"Elden Ring", "softwareHouse":"Froamsoftware", "image":"eldenring.avif"}
+]}

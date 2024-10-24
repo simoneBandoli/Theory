@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theory" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('C:/Users/bandoli simone/Desktop/Theory/HTML/images/personamenu.jpeg'); width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover;">
+
+    <div class="container mt-5 align-middle">
+        <div class="login card p-4 mx-auto" style="max-width: 400px;"> <!-- card(tipologia di riquadro) p(padding (margine)) mx auto (mette al centro) --> 
+            <div class="mb-4">  <!-- margin bottom --> 
+                <label for="username" class="form-label"><b>Username</b></label>
+                <input type="text" class="form-control" placeholder="Enter Username" name="username" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="psw" class="form-label"><b>Password</b></label>
+                <input type="password" class="form-control" placeholder="Enter Password" name="psw" required>
+            </div>
+
+            <button type="submit" class="btn w-100" onclick="secondPage()">Login</button>
+
+            <div class="form-check mt-1">
+                <input type="checkbox" class="form-check-input" checked="checked" name="remember">
+                <label class="form-check-label"> Remember me</label>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"> </script>
+</body>
+</html>
